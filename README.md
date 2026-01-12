@@ -1,0 +1,40 @@
+<div align="center">
+
+# clrsync
+
+Visual Studio Code theme designed to pair with [clrsync](https://github.com/obsqrbtz/clrsync) template engine.
+
+[![vscode](https://img.shields.io/badge/vscode-v1.84+-373277.svg?style=for-the-badge&logo=visualstudio&labelColor=1c1d21&&color=ddd1c7)](https://code.visualstudio.com/updates/v1_84)
+
+![Theme preview](images/preview.png)
+
+</div>
+
+## Install
+
+### From VS Code
+1. Open the **Extensions** sidebar in VS Code
+2. Search for `clrsync`
+3. Click **Install** on `clrsync` by `obsqrbtz`
+4. Press `ctrl + shift + p` (for macOS: `cmd + shift + p`) to open command palette
+5. Search for `Preferences: Color Theme` and choose `clrsync` to apply the theme
+
+### From VS Marketplace
+1. Go to [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=obsqrbtz.clrsync)
+2. Click on the "Install" button
+4. In VS Code press `ctrl + shift + p` (for macOS: `cmd + shift + p`) to open command palette
+5. Search for `Preferences: Color Theme` and choose `clrsync` to apply the theme
+
+## Use with clrsync
+
+1. Grab the [template file](https://github.com/obsqrbtz/clrsync/tree/master/extra/code.json) from `clrsync` repo.
+
+2. Add template to `clrsync`'s config.toml
+
+```toml
+[templates.vscode]
+enabled = true
+input_path = 'C:\Users\user\.config\clrsync\templates\code.json'
+output_path = 'C:\Users\user\.vscode\extensions\obsqrbtz.clrsync-vscode-1.0.0\themes\clrsync-color-theme.json'
+reload_cmd = ''
+```

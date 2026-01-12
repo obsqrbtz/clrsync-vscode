@@ -1,0 +1,23 @@
+{
+  "name": "clrsync",
+  "displayName": "clrsync",
+  "description": "Theme for clrsync",
+  "version": "1.0.0",
+  "publisher": "obsqrbtz",
+  "repository": "https://github.com/obsqrbtz/clrsync-vscode",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "clrsync",
+        "uiTheme": "vs-dark",
+        "path": "./themes/clrsync-color-theme.json"
+      }
+    ]
+  }
+}
