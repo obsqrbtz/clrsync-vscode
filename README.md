@@ -27,7 +27,7 @@ Visual Studio Code theme designed to pair with [clrsync](https://github.com/obsq
 
 ## Use with clrsync
 
-1. Grab the [template file](https://github.com/obsqrbtz/clrsync/tree/master/extra/code.json) from `clrsync` repo.
+1. Grab the [template file](https://github.com/obsqrbtz/clrsync/tree/master/extra/templates/code.json) from `clrsync` repo.
 
 2. Add template to `clrsync`'s config.toml
 
@@ -35,6 +35,6 @@ Visual Studio Code theme designed to pair with [clrsync](https://github.com/obsq
 [templates.vscode]
 enabled = true
 input_path = 'C:\Users\user\.config\clrsync\templates\code.json'
-output_path = 'C:\Users\user\.vscode\extensions\obsqrbtz.clrsync-vscode-1.0.0\themes\clrsync-color-theme.json'
+output_path = 'C:\Users\user\.vscode\extensions\obsqrbtz.clrsync-1.0.2\themes\clrsync-color-theme.json'
 reload_cmd = ''
 ```
